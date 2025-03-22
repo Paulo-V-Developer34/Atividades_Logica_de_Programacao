@@ -1,5 +1,9 @@
 # Atividades de Lógica de Programação e Algorítimos
 
+## AVISOS IMPORTANTES
+
+1. Por falta de tempo ainda não consegui realizar as atividades nas outras linguagens de programação, apenas em C, visto que é a linguagem principal da matéria
+
 ## Sobre o projeto
 
 Neste repositório estão armazenados as atividades da matéria de lógica de programação e algorítimos do primeiro siclo do curso tecnológico de análise e desenvolvimento de sistemas (ADS)
