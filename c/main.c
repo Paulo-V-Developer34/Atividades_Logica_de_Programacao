@@ -74,12 +74,12 @@ int main(int argc, char const *argv[])
 #endif
 
 #ifdef ex4
-int lerdados(int numero)
+float lerdados(float numero)
 {
     do
     {
         printf("Digite um numero\n");
-        scanf(" %d", &numero);
+        scanf(" %f", &numero);
         if (numero <= 0)
         {
             printf("\7O numero digitado nao pode ser \"0\" nem um numero negativo\n");
@@ -89,9 +89,13 @@ int lerdados(int numero)
 
 int main(int argc, char const *argv[])
 {
-    int numero;
+    float numero;
     numero = lerdados(numero); // isso não faz muito sentido mas não sei como eu poderia fazer da forma certa no fluxograma
-    printf("O sucessor do numero digitado e\' %d e o antecessor e\' %d", numero + 1, numero - 1);
+    if(numero >= 100){
+        printf("Seu salario teve um almento de 20%%, ficando assim com o valor de %f", numero);
+    }else{
+        printf("Seu salario teve um almento de 10%%, ficando assim com o valor de %f", numero);
+    };
     return 0;
 }
 #endif
